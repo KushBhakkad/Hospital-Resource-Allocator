@@ -24,7 +24,7 @@ class HospitalResourceAllocator:
         self.departments.append(department)
 
     def add_edge(self, department1, department2, distance):
-        edge = Edge(department1, department2, distance)~
+        edge = Edge(department1, department2, distance)
         self.edges.append(edge)
 
     def prim_algorithm(self):
